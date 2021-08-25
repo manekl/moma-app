@@ -18,4 +18,15 @@ describe("#RepeatString",()=>{
 
     });
 
+    test("Empty string or n is 0", ()=>{
+
+        const inputLetters = "";
+        const num = 0;
+        RepeatString(num,inputLetters);
+
+        expect(RepeatString(num,inputLetters)).toEqual("");
+
+    });
+
+
 });
